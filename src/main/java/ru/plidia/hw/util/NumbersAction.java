@@ -6,7 +6,6 @@ public class NumbersAction {
         int indexFirst = 0;
         int indexSecond = 1;
         int num = 0;
-
         while (arr[0] > arr[1] || arr[1] > arr[2] || arr[2] > arr[3]) {
             if (arr[indexFirst] > arr[indexSecond]) {
                 num = arr[indexSecond];
